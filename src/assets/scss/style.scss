@@ -5,10 +5,8 @@
 /*--------------------------------------------------------------
 # Variables, functions and mixins
 --------------------------------------------------------------*/
-@import "core/abstracts/functions",
-		"settings/settings",
-        "core/abstracts/mixins",
-        'core/abstracts/include-media';
+@import "core/abstracts/functions", "settings/settings", "core/abstracts/mixins",
+  "core/abstracts/include-media";
 
 /*--------------------------------------------------------------
 # Normalize
@@ -115,7 +113,7 @@
 /*--------------------------------------------------------------
 # Call to action
 --------------------------------------------------------------*/
-@import "core/sections/cta";
+// @import "core/sections/cta";
 
 /*--------------------------------------------------------------
 # Theme
