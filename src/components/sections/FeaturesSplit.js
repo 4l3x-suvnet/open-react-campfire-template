@@ -70,10 +70,10 @@ const FeaturesSplit = ({
                   Lightning fast workflow
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Custom work spaces
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  In CampFire, you can easily create custom work spaces. Whether you need a space for real-time document handling, live coding, planning group assignments or screen sharing, we've got you covered!
                   </p>
               </div>
               <div className={
@@ -83,23 +83,24 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
+                  src={require('./../../assets/images/img-1.png')}
                   alt="Features split 01"
-                  width={528}
-                  height={396} />
+                  width={728}
+                  height={596}
+                  style={{borderRadius:5}} />
               </div>
             </div>
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Ask a question
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Get an insight - using polls
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Make live polls that perform great and look fantastic on any device. Boost engagement, collect insights, track progress, start a conversation.
                   </p>
               </div>
               <div className={
@@ -109,10 +110,11 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-02.png')}
+                  src={require('./../../assets/images/img-2.png')}
                   alt="Features split 02"
                   width={528}
-                  height={396} />
+                  height={396}
+                  style={{borderRadius:5}} />
               </div>
             </div>
 
@@ -135,7 +137,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-03.png')}
+                  src={require('./../../assets/images/video-chat.svg')}
                   alt="Features split 03"
                   width={528}
                   height={396} />

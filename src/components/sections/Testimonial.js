@@ -49,7 +49,7 @@ const Testimonial = ({
   };
 
   return (
-    <section
+    <section id='testimonials'
       {...props}
       className={outerClasses}
     >
@@ -62,14 +62,14 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
-                      </p>
+                    - I find it difficult to find relevant information for a specific course.
+                    <br></br>I was one of the lucky ones who got to test the beta-version of Campfire and this is exactly what me and my class mates have been looking for!</p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-name text-color-high">Johanna Koskela</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    Teacher
+                    Student
                   </span>
                 </div>
               </div>
@@ -79,14 +79,16 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
+                    — As a teacher, I need to use multiple different school's systems. Campfire eliminates the learning curve and makes it super easy for me to plan lessons as well as supervise, and grade my students.
                       </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Diana Rynzhuk</span>
+                  <span className="testimonial-item-name text-color-high">
+                  {/* <img  className="testimonial-item-picture" src={require('./../../assets/images/gladyz.jpg')} /> */}
+                    Gladyz Pabon</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    Student
+                    Teacher
                   </span>
                 </div>
               </div>
