@@ -24,7 +24,7 @@ const FeaturesTiles = ({
 }) => {
 
   const outerClasses = classNames(
-    'features-tiles section',
+    'features-tiles section features-split',
     topOuterDivider && 'has-top-divider',
     bottomOuterDivider && 'has-bottom-divider',
     hasBgColor && 'has-bg-color',
@@ -33,7 +33,7 @@ const FeaturesTiles = ({
   );
 
   const innerClasses = classNames(
-    'features-tiles-inner section-inner pt-0',
+    'features-tiles-inner section-inner pt-0 has-top-divider features-split-inner',
     topDivider && 'has-top-divider',
     bottomDivider && 'has-bottom-divider'
   );
@@ -49,7 +49,7 @@ const FeaturesTiles = ({
   };
 
   return (
-    <section
+    <section id='features'
       {...props}
       className={outerClasses}
     >
