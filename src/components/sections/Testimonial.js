@@ -24,7 +24,7 @@ const Testimonial = ({
 }) => {
 
   const outerClasses = classNames(
-    'testimonial section',
+    'testimonial section illustration-section-03',
     topOuterDivider && 'has-top-divider',
     bottomOuterDivider && 'has-bottom-divider',
     hasBgColor && 'has-bg-color',
@@ -62,7 +62,7 @@ const Testimonial = ({
               <div className="tiles-item-inner">
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    - I find it difficult to find relevant information for a specific course.
+                  — I find it difficult to find relevant information for a specific course.
                     <br></br>I was one of the lucky ones who got to test the beta-version of Campfire and this is exactly what me and my class mates have been looking for!</p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
@@ -84,8 +84,8 @@ const Testimonial = ({
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-name text-color-high">
-                  {/* <img  className="testimonial-item-picture" src={require('./../../assets/images/gladyz.jpg')} /> */}
-                    Gladyz Pabon</span>
+                    Gladyz Pabon
+                  </span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
                     Teacher
@@ -110,7 +110,6 @@ const Testimonial = ({
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </div>

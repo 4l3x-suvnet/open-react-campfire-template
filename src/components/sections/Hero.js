@@ -4,7 +4,8 @@ import { SectionProps } from '../../utils/SectionProps';
 import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
 import Image from '../elements/Image';
-import Modal from '../elements/Modal';
+import { MdFileDownload } from "react-icons/md";
+import { BsBoxArrowUpRight } from "react-icons/bs";
 
 const propTypes = {
   ...SectionProps.types
@@ -24,18 +25,6 @@ const Hero = ({
   invertColor,
   ...props
 }) => {
-
-  const [videoModalActive, setVideomodalactive] = useState(false);
-
-  const openModal = (e) => {
-    e.preventDefault();
-    setVideomodalactive(true);
-  }
-
-  const closeModal = (e) => {
-    e.preventDefault();
-    setVideomodalactive(false);
-  }   
 
   const outerClasses = classNames(
     'hero section center-content',
@@ -60,7 +49,7 @@ const Hero = ({
       <div className="container-sm">
         <div className={innerClasses}>
           <div className="hero-content">
-            <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
+            <h1 className="mt-5 mb-16 reveal-from-bottom" data-reveal-delay="200">
               Camp<span className="text-color-primary">Fire</span>
             </h1>
             <div className="container-xs">
@@ -70,36 +59,27 @@ const Hero = ({
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
                   <Button tag="a" color="primary" wideMobile href="https://cruip.com/">
-                    Download for Windows
+                  <MdFileDownload style={{marginRight:10}}/> Download for Windows
                     </Button>
                   <Button tag="a" color="dark" wideMobile href="https://github.com/cruip/open-react-template/">
-                    Open CampFire in your browser
+                    Open CampFire in your browser <BsBoxArrowUpRight style={{marginLeft:10}}/>
                     </Button>
                 </ButtonGroup>
               </div>
             </div>
           </div>
-          <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
-            <a
-              data-video="https://player.vimeo.com/video/174002812"
-              href="#0"
-              aria-controls="video-modal"
-              onClick={openModal}
-            >
+          <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-delay="1000">
+          /ˈkampfʌɪə/<br></br>
+          <small> Used as a focal point for social activity</small><br></br><br></br><br></br><br></br><br></br>
+              <div className='reveal-from-bottom' data-reveal-delay="1200">
               <Image
                 className="has-shadow"
-                src={require('./../../assets/images/video-placeholder.jpg')}
+                src={require('./../../assets/images/banner_training.svg')}
                 alt="Hero"
                 width={896}
                 height={504} />
-            </a>
+                </div>
           </div>
-          <Modal
-            id="video-modal"
-            show={videoModalActive}
-            handleClose={closeModal}
-            video="https://player.vimeo.com/video/174002812"
-            videoTag="iframe" />
         </div>
       </div>
     </section>

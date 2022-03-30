@@ -3,6 +3,10 @@ import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
+import { BsListStars, BsGlobe } from "react-icons/bs";
+import { SiLetsencrypt, SiBookmeter } from "react-icons/si";
+import { GiTeacher } from "react-icons/gi";
+import { RiEmotionLine } from "react-icons/ri";
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -57,16 +61,16 @@ const FeaturesTiles = ({
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className={tilesClasses}>
-
             <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
-                    <Image
+                  <BsListStars style={{width:64,height:64,padding:12,color:'black'}}/>
+                    {/* <Image
                       src={require('./../../assets/images/feature-tile-icon-01.svg')}
                       alt="Features tile icon 01"
                       width={64}
-                      height={64} />
+                      height={64} /> */}
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
@@ -84,11 +88,12 @@ const FeaturesTiles = ({
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
-                    <Image
+                  <SiLetsencrypt style={{width:64,height:64,padding:12,color:'black'}}/>
+                    {/* <Image
                       src={require('./../../assets/images/feature-tile-icon-02.svg')}
                       alt="Features tile icon 02"
                       width={64}
-                      height={64} />
+                      height={64} /> */}
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
@@ -106,11 +111,12 @@ const FeaturesTiles = ({
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
-                    <Image
+                  <BsGlobe style={{width:64,height:64,padding:12,color:'black'}}/>
+                    {/* <Image
                       src={require('./../../assets/images/feature-tile-icon-03.svg')}
                       alt="Features tile icon 03"
                       width={64}
-                      height={64} />
+                      height={64} /> */}
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
@@ -128,11 +134,12 @@ const FeaturesTiles = ({
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
-                    <Image
+                    <GiTeacher style={{width:64,height:64,padding:12,color:'black'}}/>
+                    {/* <Image
                       src={require('./../../assets/images/feature-tile-icon-04.svg')}
                       alt="Features tile icon 04"
                       width={64}
-                      height={64} />
+                      height={64} /> */}
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
@@ -150,11 +157,12 @@ const FeaturesTiles = ({
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
-                    <Image
+                  <SiBookmeter style={{width:64,height:64,padding:12,color:'black'}}/>                 
+                    {/* <Image
                       src={require('./../../assets/images/feature-tile-icon-05.svg')}
                       alt="Features tile icon 05"
                       width={64}
-                      height={64} />
+                      height={64} /> */}
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
@@ -172,11 +180,12 @@ const FeaturesTiles = ({
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
-                    <Image
+                  <RiEmotionLine style={{width:64,height:64,padding:12,color:'black'}}/>                       
+                    {/* <Image
                       src={require('./../../assets/images/feature-tile-icon-06.svg')}
                       alt="Features tile icon 06"
                       width={64}
-                      height={64} />
+                      height={64} /> */}
                   </div>
                 </div>
                 <div className="features-tiles-item-content">

@@ -11,8 +11,16 @@ nav {
     display: flex;
     gap: 0.8rem;
     border-radius: 20px;
+    font-size: 1.1rem;
     backdrop-filter: blur(2px);
     transition: .5s ease all;
+}
+
+nav:hover {
+    font-size: 1.2rem;
+    background: rgba(0, 0, 0, .8);
+    border-radius: 10px;
+    bottom: 1.2rem;
 }
 
 nav a {
@@ -20,20 +28,20 @@ nav a {
     padding: .5rem;
     border-radius: 30%;
     display: flex;
-    font-size: 1.1rem;
+    
     transition: .5s ease;
     
 }
 
 nav a:hover {
-    color: white;
+    color: #d37f00;
     transition: .5s ease;
     bottom: .5rem;
 }
 
 nav a.active {
-    background: #4344b4;
+    background: #d37f00;
     border-radius: 30%;
-    color: white;
+    color: #151719;
     transition: .5s ease;
 }
