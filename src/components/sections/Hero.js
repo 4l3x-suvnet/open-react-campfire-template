@@ -54,14 +54,14 @@ const Hero = ({
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Connect • Communicate • Learn
+              <span className="text-color-primary">Connect</span> • <span className="text-color-primary">Communicate</span> • <span className="text-color-primary">Learn</span>
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="https://cruip.com/">
+                  <Button tag="a" color="primary" wideMobile href="#">
                   <MdFileDownload style={{marginRight:10}}/> Download for Windows
                     </Button>
-                  <Button tag="a" color="dark" wideMobile href="https://github.com/cruip/open-react-template/">
+                  <Button tag="a" color="dark" wideMobile href="#">
                     Open CampFire in your browser <BsBoxArrowUpRight style={{marginLeft:10}}/>
                     </Button>
                 </ButtonGroup>
@@ -69,8 +69,8 @@ const Hero = ({
             </div>
           </div>
           <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-delay="1000">
-          /ˈkampfʌɪə/<br></br>
-          <small> Used as a focal point for social activity</small><br></br><br></br><br></br><br></br><br></br>
+          <span className="text-color-primary">/ˈkamp</span>fʌɪə/<br></br>
+          <small> Used as a focal <span className="text-color-primary">point for social activity</span></small><br></br><br></br><br></br><br></br><br></br>
               <div className='reveal-from-bottom' data-reveal-delay="1200">
               <Image
                 className="has-shadow"
