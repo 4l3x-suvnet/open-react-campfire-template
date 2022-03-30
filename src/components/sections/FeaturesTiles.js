@@ -88,10 +88,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Encrypted workflow
+                    Encrypted Workflow
                     </h4>
                   <p className="m-0 text-sm">
-                  CampFire uses The Advanced Encryption Standard (AES) algorithm to encrypt data.<br></br>
+                  CampFire uses the Advanced Encryption Standard (AES) algorithm to encrypt data and traffic.<br></br>
                   It is trusted as the standard by the U.S. government and many other organizations.
                     </p>
                 </div>
@@ -126,10 +126,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Virtual class room
+                    Virtual Classroom
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                  Engage with each other and the learning material. The Virtual Classroom™ offer an added set of features that are essential to a learning environment.
                     </p>
                 </div>
               </div>
@@ -147,7 +147,7 @@ const FeaturesTiles = ({
                     Track progress
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                  Compare student growth. Evaluate whether interventions are working. Get immediate insights about your students that will inform your decisions and improve instruction.
                     </p>
                 </div>
               </div>
